@@ -1,0 +1,53 @@
+body {
+    background-color: floralwhite;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.flag {
+    height: 200px;
+    width: 346px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gerb {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for each list item */
+.link-item {
+    margin-bottom: 10px;
+}
+
+/* Style for links */
+.link-item a {
+    text-decoration: none;
+    color: darkblue;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for links */
+.link-item a:hover {
+    color: #007bff;
+}
+
+dt {
+    font-size: larger;
+}

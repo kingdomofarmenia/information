@@ -1,73 +1,85 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+<html lang="hy" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="https://scontent.fevn7-1.fna.fbcdn.net/v/t39.30808-6/420124375_122117086460153426_8891699061505891896_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=RvQfw7vLEWYQ7kNvgE7dkRx&_nc_ht=scontent.fevn7-1.fna&oh=00_AYAkgfWb2xh2Gojkd9KDtF9I9ho9hmuEHYJnrzOhcpeLUQ&oe=6645763E"/>
     <meta property="fb:admins" content="USER_ID"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wght@500;700&family=Noto+Sans+Armenian:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" type="image/png" href="./resources/images/gerb1.ico">
     <title>Հայաստանի Թագավորություն</title>
 </head>
 <body>
-<div class="images">
-    <img class="gerb" src="./resources/images/gerb1.jpg" alt="gerb">
-    <img class="flag" src="./resources/images/flag_original.jpg" alt="flag">
-    <img class="gerb" src="./resources/images/gerb2.jpg" alt="gerb">
-</div>
-<!--<hr>-->
-<div>
-    <dl class="link-list">
-        <dt class="link-item">Դավիթ Միրզոյան</dt>
-        <dd class="link-item">
-            <a href="https://www.davitmirzoyan.com">Անձնական կայք</a>
-            <span> - այստեղ զետեղված են Դավիթ Միրզոյանի գրքերն ու արվեստի գործերը</span>
-        </dd>
-        <dd class="link-item">
-            <a href="https://hy.wikipedia.org/wiki/%D4%B4%D5%A1%D5%BE%D5%AB%D5%A9_%D5%84%D5%AB%D6%80%D5%A6%D5%B8%D5%B5%D5%A1%D5%B6">
-                Wikipedia</a>
-            <span> - կենսագրության և գործունեության մասին՝ համառոտ</span>
-        </dd>
-        <dd class="link-item">
-            <a href="https://www.scribd.com/user/239393522/Davit-Mirzoyan">Գրքեր</a>
-            <span> - «Վերածնունդ» վեպը 2 հատորով և «Հոդվածներ Ակնարկներ Աֆորիզմներ» ժողովածուն՝ անվճար
-                ներբեռնման հնարավորությամբ</span>
-        </dd>
-        <dd class="link-item">
-            <a href="https://vernatun.blogspot.com/">Հոդվածներ և ակնարկներ</a>
-            <span> - ամբողջական ժողովածուն</span>
-        </dd>
-        <dd class="link-item">
-            <a href="https://vernatun.blogspot.com/2014/06/blog-post.html">Արարչական Օրենքներ</a>
-            <span> - խիստ անհրաժեշտ գիտելիքներ՝ մարդու ճիշտ ապրելակերպի և աշխարհընկալման համար</span>
-        </dd>
-        <dd class="link-item">
-            <a href="https://vernatun.blogspot.com/2014/08/blog-post_21.html">Հայաստանի Թագավորության Ազգային Սահմանադրություն</a>
-            <span> - Համայն Հայոց Արքայի բոլոր որոշումները բխում են ազգային ուսմունքի հիման վրա կազմված
-                սահմանադրությունից</span>
-        </dd>
-        <dd class="link-item">
-            <a href="https://www.facebook.com/profile.php?id=100001111390857">Ֆեյսբուքյան էջ</a>
-            <span> - Դավիթ Միրզոյանի անձնական էջը</span>
-        </dd>
-        <dd class="link-item">
-            <a href="https://www.youtube.com/@arman10man/streams">Յութուբյան ուղիղ եթերներ</a>
-            <span> - եթերները տեղի են ունենում «Ապագա Հայոց Թագավորություն» թեմայով</span>
-        </dd>
-    </dl>
-    <hr>
-    <dl class="link-list">
-        <dt class="link-item">Այլ հղումներ</dt>
-        <dd class="link-item">
-            <a href="https://www.facebook.com/kingdomofarmenia1/">Հայաստանի Թագավորություն</a>
-            <span> - ֆեյսբուքյան էջը նախատեսված է միապետության և ազգային ուսմունքի
-                գաղափարները ներկայացնելու համար</span>
-        </dd>
-        <dd class="link-item">
-            <a href="https://t.me/+0bGPVE7NcBZjYzc6">Telegram ալիք</a>
-            <span> - նախատեսված է միապետության գաղափարներն ամբողջությամբ ընդունող զինակիցների համար</span>
-        </dd>
-    </dl>
-</div>
+<header class="hero">
+    <div class="hero-inner">
+        <img class="gerb" src="./resources/images/gerb1.jpg" alt="Զինանշան">
+        <div class="hero-center">
+            <h1 class="hero-title">Հայաստանի Թագավորություն</h1>
+            <img class="flag" src="./resources/images/flag_original.jpg" alt="Հայաստանի դրոշ">
+        </div>
+        <img class="gerb" src="./resources/images/gerb2.jpg" alt="Զինանշան">
+    </div>
+</header>
 
+<main class="container">
+    <section class="link-section">
+        <h2 class="section-title">Դավիթ Միրզոյան</h2>
+        <ul class="link-grid">
+            <li class="link-card">
+                <a href="https://www.davitmirzoyan.com" target="_blank" rel="noopener noreferrer">Անձնական կայք</a>
+                <p>Այստեղ զետեղված են Դավիթ Միրզոյանի գրքերն ու արվեստի գործերը։</p>
+            </li>
+            <li class="link-card">
+                <a href="https://hy.wikipedia.org/wiki/%D4%B4%D5%A1%D5%BE%D5%AB%D5%A9_%D5%84%D5%AB%D6%80%D5%A6%D5%B8%D5%B5%D5%A1%D5%B6" target="_blank" rel="noopener noreferrer">Wikipedia</a>
+                <p>Կենսագրության և գործունեության մասին՝ համառոտ։</p>
+            </li>
+            <li class="link-card">
+                <a href="https://www.scribd.com/user/239393522/Davit-Mirzoyan" target="_blank" rel="noopener noreferrer">Գրքեր</a>
+                <p>«Վերածնունդ» վեպը 2 հատորով և «Հոդվածներ Ակնարկներ Աֆորիզմներ» ժողովածուն՝ անվճար ներբեռնման հնարավորությամբ։</p>
+            </li>
+            <li class="link-card">
+                <a href="https://vernatun.blogspot.com/" target="_blank" rel="noopener noreferrer">Հոդվածներ և ակնարկներ</a>
+                <p>Ամբողջական ժողովածուն։</p>
+            </li>
+            <li class="link-card">
+                <a href="https://vernatun.blogspot.com/2014/06/blog-post.html" target="_blank" rel="noopener noreferrer">Արարչական Օրենքներ</a>
+                <p>Խիստ անհրաժեշտ գիտելիքներ՝ մարդու ճիշտ ապրելակերպի և աշխարհընկալման համար։</p>
+            </li>
+            <li class="link-card">
+                <a href="https://vernatun.blogspot.com/2014/08/blog-post_21.html" target="_blank" rel="noopener noreferrer">Հայաստանի Թագավորության Ազգային Սահմանադրություն</a>
+                <p>Համայն Հայոց Արքայի բոլոր որոշումները բխում են ազգային ուսմունքի հիման վրա կազմված սահմանադրությունից։</p>
+            </li>
+            <li class="link-card">
+                <a href="https://www.facebook.com/profile.php?id=100001111390857" target="_blank" rel="noopener noreferrer">Ֆեյսբուքյան էջ</a>
+                <p>Դավիթ Միրզոյանի անձնական էջը։</p>
+            </li>
+            <li class="link-card">
+                <a href="https://www.youtube.com/@arman10man/streams" target="_blank" rel="noopener noreferrer">Յութուբյան ուղիղ եթերներ</a>
+                <p>Եթերները տեղի են ունենում «Ապագա Հայոց Թագավորություն» թեմայով։</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="link-section">
+        <h2 class="section-title">Այլ հղումներ</h2>
+        <ul class="link-grid">
+            <li class="link-card">
+                <a href="https://www.facebook.com/kingdomofarmenia1/" target="_blank" rel="noopener noreferrer">Հայաստանի Թագավորություն</a>
+                <p>Ֆեյսբուքյան էջը նախատեսված է միապետության և ազգային ուսմունքի գաղափարները ներկայացնելու համար։</p>
+            </li>
+            <li class="link-card">
+                <a href="https://t.me/+0bGPVE7NcBZjYzc6" target="_blank" rel="noopener noreferrer">Telegram ալիք</a>
+                <p>Նախատեսված է միապետության գաղափարներն ամբողջությամբ ընդունող զինակիցների համար։</p>
+            </li>
+        </ul>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>© Հայաստանի Թագավորություն</p>
+</footer>
 </body>
 </html>

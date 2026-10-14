@@ -248,6 +248,298 @@ body {
     text-underline-offset: 3px;
 }
 
+/* ========== Document (long-form reading) ========== */
+.container-narrow {
+    max-width: 820px;
+}
+
+.document {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 56px 64px;
+    box-shadow: var(--shadow-md);
+    font-family: 'Noto Serif Armenian', 'Georgia', serif;
+    font-size: 1.0625rem;
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
+.document-title {
+    font-family: 'Noto Serif Armenian', 'Georgia', serif;
+    text-align: center;
+    font-size: clamp(1.6rem, 3vw, 2.25rem);
+    font-weight: 700;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 48px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--color-apricot);
+}
+
+.rule-section {
+    margin-bottom: 40px;
+}
+
+.rule-section:last-of-type {
+    margin-bottom: 32px;
+}
+
+.rule-section h2 {
+    font-family: 'Noto Serif Armenian', 'Georgia', serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin: 0 0 16px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--color-apricot);
+    display: inline-block;
+}
+
+.rule-section p {
+    margin: 0 0 16px;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.rule-section p:last-child {
+    margin-bottom: 0;
+}
+
+.condemn-list {
+    list-style: none;
+    padding: 0 0 0 20px;
+    margin: 18px 0;
+    border-left: 3px solid var(--color-accent);
+}
+
+.condemn-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    color: var(--color-text);
+}
+
+.condemn-list li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--color-accent);
+    font-size: 0.7rem;
+    line-height: 1.9;
+}
+
+.condemn-list li:last-child {
+    margin-bottom: 0;
+}
+
+.rule-section .note {
+    background: #fdf6e3;
+    border-left: 3px solid var(--color-apricot);
+    padding: 14px 20px;
+    margin: 18px 0 0;
+    font-style: italic;
+    color: var(--color-muted);
+    border-radius: 0 4px 4px 0;
+}
+
+.document-divider {
+    text-align: center;
+    color: var(--color-apricot);
+    font-size: 1.5rem;
+    letter-spacing: 10px;
+    margin: 40px 0 32px;
+    user-select: none;
+}
+
+.document-subtitle {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 0.6em;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: var(--color-muted);
+    text-transform: none;
+}
+
+.document-part-title {
+    font-family: 'Noto Serif Armenian', 'Georgia', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--color-accent);
+    margin: 48px 0 32px;
+    padding: 16px 0;
+    border-top: 2px solid var(--color-apricot);
+    border-bottom: 2px solid var(--color-apricot);
+}
+
+.preamble-intro {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.preamble-list {
+    list-style: none;
+    padding: 0 0 0 24px;
+    margin: 16px 0;
+    border-left: 3px solid var(--color-primary);
+}
+
+.preamble-list li {
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 10px;
+    line-height: 1.65;
+}
+
+.preamble-list li::before {
+    content: '★';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--color-primary);
+    font-size: 0.85rem;
+    line-height: 2.1;
+}
+
+.preamble-list li:last-child {
+    margin-bottom: 0;
+}
+
+.anthem {
+    margin: 20px auto;
+    padding: 24px 28px;
+    background: #fdf6e3;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    text-align: center;
+    font-style: italic;
+    line-height: 1.9;
+    max-width: 560px;
+}
+
+.anthem-verse,
+.anthem-chorus {
+    margin: 16px 0;
+}
+
+.anthem-chorus {
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+.anthem-label {
+    font-style: normal;
+    font-weight: 600;
+    color: var(--color-accent);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.85em;
+    margin: 20px 0 8px;
+}
+
+.consequences-list {
+    list-style: none;
+    padding: 0 0 0 20px;
+    margin: 18px 0;
+    border-left: 3px solid var(--color-primary);
+}
+
+.consequences-list li {
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 12px;
+}
+
+.consequences-list li::before {
+    content: '→';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--color-primary);
+    font-weight: 700;
+    line-height: 1.6;
+}
+
+.consequences-list li:last-child {
+    margin-bottom: 0;
+}
+
+.document-closing {
+    text-align: justify;
+    hyphens: auto;
+    margin: 0 0 32px;
+}
+
+.document-signature {
+    text-align: right;
+    font-style: italic;
+    color: var(--color-muted);
+    margin: 0;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .document {
+        padding: 32px 24px;
+        font-size: 1rem;
+        line-height: 1.75;
+    }
+
+    .document-title {
+        letter-spacing: 1px;
+        margin-bottom: 32px;
+        padding-bottom: 16px;
+    }
+
+    .rule-section {
+        margin-bottom: 32px;
+    }
+
+    .rule-section h2 {
+        font-size: 1.05rem;
+        letter-spacing: 0.8px;
+    }
+
+    .rule-section p,
+    .document-closing {
+        text-align: left;
+    }
+
+    .condemn-list {
+        padding-left: 14px;
+    }
+
+    .document-divider {
+        letter-spacing: 6px;
+        margin: 28px 0 24px;
+    }
+
+    .document-part-title {
+        font-size: 1.1rem;
+        letter-spacing: 1.5px;
+        margin: 32px 0 24px;
+        padding: 12px 0;
+    }
+
+    .anthem {
+        padding: 18px 16px;
+        line-height: 1.75;
+    }
+
+    .preamble-list,
+    .consequences-list {
+        padding-left: 14px;
+    }
+}
+
 /* ========== Footer ========== */
 .site-footer {
     border-top: 1px solid var(--color-border);
